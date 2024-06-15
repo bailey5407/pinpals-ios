@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct pinpals_iosApp: App {
+struct PinPalsApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

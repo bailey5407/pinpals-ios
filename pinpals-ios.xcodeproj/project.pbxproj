@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4FDB8EE12C1E55770012FC8B /* pinpals_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDB8EE02C1E55770012FC8B /* pinpals_iosApp.swift */; };
+		4FDB8EE12C1E55770012FC8B /* PinPalsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDB8EE02C1E55770012FC8B /* PinPalsApp.swift */; };
 		4FDB8EE32C1E55770012FC8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDB8EE22C1E55770012FC8B /* ContentView.swift */; };
 		4FDB8EE52C1E55780012FC8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FDB8EE42C1E55780012FC8B /* Assets.xcassets */; };
 		4FDB8EE82C1E55780012FC8B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FDB8EE72C1E55780012FC8B /* Preview Assets.xcassets */; };
+		4FDB8EF12C1E56A50012FC8B /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDB8EF02C1E56A50012FC8B /* LocationManager.swift */; };
+		4FDB8EF32C1E56F50012FC8B /* PinPalsMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDB8EF22C1E56F50012FC8B /* PinPalsMap.swift */; };
+		4FDB8EF72C1E58300012FC8B /* MapboxMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 4FDB8EF62C1E58300012FC8B /* MapboxMaps */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4FDB8EDD2C1E55770012FC8B /* pinpals-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pinpals-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4FDB8EE02C1E55770012FC8B /* pinpals_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pinpals_iosApp.swift; sourceTree = "<group>"; };
+		4FDB8EE02C1E55770012FC8B /* PinPalsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinPalsApp.swift; sourceTree = "<group>"; };
 		4FDB8EE22C1E55770012FC8B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4FDB8EE42C1E55780012FC8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FDB8EE72C1E55780012FC8B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4FDB8EF02C1E56A50012FC8B /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		4FDB8EF22C1E56F50012FC8B /* PinPalsMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinPalsMap.swift; sourceTree = "<group>"; };
+		4FDB8EF42C1E57AB0012FC8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FDB8EF72C1E58300012FC8B /* MapboxMaps in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +58,11 @@
 		4FDB8EDF2C1E55770012FC8B /* pinpals-ios */ = {
 			isa = PBXGroup;
 			children = (
-				4FDB8EE02C1E55770012FC8B /* pinpals_iosApp.swift */,
+				4FDB8EF42C1E57AB0012FC8B /* Info.plist */,
+				4FDB8EF02C1E56A50012FC8B /* LocationManager.swift */,
+				4FDB8EE02C1E55770012FC8B /* PinPalsApp.swift */,
 				4FDB8EE22C1E55770012FC8B /* ContentView.swift */,
+				4FDB8EF22C1E56F50012FC8B /* PinPalsMap.swift */,
 				4FDB8EE42C1E55780012FC8B /* Assets.xcassets */,
 				4FDB8EE62C1E55780012FC8B /* Preview Content */,
 			);
@@ -83,6 +93,9 @@
 			dependencies = (
 			);
 			name = "pinpals-ios";
+			packageProductDependencies = (
+				4FDB8EF62C1E58300012FC8B /* MapboxMaps */,
+			);
 			productName = "pinpals-ios";
 			productReference = 4FDB8EDD2C1E55770012FC8B /* pinpals-ios.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +124,9 @@
 				Base,
 			);
 			mainGroup = 4FDB8ED42C1E55770012FC8B;
+			packageReferences = (
+				4FDB8EF52C1E58300012FC8B /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */,
+			);
 			productRefGroup = 4FDB8EDE2C1E55770012FC8B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +153,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FDB8EF32C1E56F50012FC8B /* PinPalsMap.swift in Sources */,
 				4FDB8EE32C1E55770012FC8B /* ContentView.swift in Sources */,
-				4FDB8EE12C1E55770012FC8B /* pinpals_iosApp.swift in Sources */,
+				4FDB8EE12C1E55770012FC8B /* PinPalsApp.swift in Sources */,
+				4FDB8EF12C1E56A50012FC8B /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +293,10 @@
 				DEVELOPMENT_TEAM = YAUHQ2YZCF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "pinpals-ios/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your location all the time";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +326,10 @@
 				DEVELOPMENT_TEAM = YAUHQ2YZCF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "pinpals-ios/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your location all the time";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -344,6 +370,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4FDB8EF52C1E58300012FC8B /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mapbox/mapbox-maps-ios.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4FDB8EF62C1E58300012FC8B /* MapboxMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4FDB8EF52C1E58300012FC8B /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */;
+			productName = MapboxMaps;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4FDB8ED52C1E55770012FC8B /* Project object */;
 }
