@@ -7,23 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F1B8F812C40A05A00449D13 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1B8F802C40A05A00449D13 /* ProfileView.swift */; };
+		4F1B8F832C40A40900449D13 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1B8F822C40A40900449D13 /* MessagesView.swift */; };
+		4F1B8F852C40A41300449D13 /* HostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1B8F842C40A41300449D13 /* HostView.swift */; };
+		4F1B8F872C40A42100449D13 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1B8F862C40A42100449D13 /* SearchView.swift */; };
+		4F1B8F8E2C41B40A00449D13 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1B8F8D2C41B40A00449D13 /* CustomTabBarView.swift */; };
+		4F7064A92C45BD4C00AFF8E0 /* MapboxMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 4F7064A82C45BD4C00AFF8E0 /* MapboxMaps */; };
+		4F7064B12C483B4F00AFF8E0 /* PinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7064B02C483B4F00AFF8E0 /* PinView.swift */; };
+		4F7064B32C483EBB00AFF8E0 /* PinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7064B22C483EBB00AFF8E0 /* PinModel.swift */; };
+		4F7064C02C48428200AFF8E0 /* supabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7064BF2C48428200AFF8E0 /* supabase.swift */; };
+		4F7064C22C48437D00AFF8E0 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 4F7064C12C48437D00AFF8E0 /* Supabase */; };
+		4F7064C42C48450B00AFF8E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7064C32C48450B00AFF8E0 /* AppDelegate.swift */; };
+		4F96CEB22C45BA10002569C5 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F96CEB12C45BA10002569C5 /* MapViewController.swift */; };
 		4FDB8EE12C1E55770012FC8B /* PinPalsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDB8EE02C1E55770012FC8B /* PinPalsApp.swift */; };
-		4FDB8EE32C1E55770012FC8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDB8EE22C1E55770012FC8B /* ContentView.swift */; };
+		4FDB8EE32C1E55770012FC8B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDB8EE22C1E55770012FC8B /* MainView.swift */; };
 		4FDB8EE52C1E55780012FC8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FDB8EE42C1E55780012FC8B /* Assets.xcassets */; };
 		4FDB8EE82C1E55780012FC8B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FDB8EE72C1E55780012FC8B /* Preview Assets.xcassets */; };
 		4FDB8EF12C1E56A50012FC8B /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDB8EF02C1E56A50012FC8B /* LocationManager.swift */; };
-		4FDB8EF32C1E56F50012FC8B /* PinPalsMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDB8EF22C1E56F50012FC8B /* PinPalsMap.swift */; };
-		4FDB8EF72C1E58300012FC8B /* MapboxMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 4FDB8EF62C1E58300012FC8B /* MapboxMaps */; };
+		4FDB8EF32C1E56F50012FC8B /* PinPalsMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDB8EF22C1E56F50012FC8B /* PinPalsMapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F1B8F802C40A05A00449D13 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		4F1B8F822C40A40900449D13 /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+		4F1B8F842C40A41300449D13 /* HostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostView.swift; sourceTree = "<group>"; };
+		4F1B8F862C40A42100449D13 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		4F1B8F8D2C41B40A00449D13 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
+		4F7064B02C483B4F00AFF8E0 /* PinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinView.swift; sourceTree = "<group>"; };
+		4F7064B22C483EBB00AFF8E0 /* PinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinModel.swift; sourceTree = "<group>"; };
+		4F7064BF2C48428200AFF8E0 /* supabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = supabase.swift; sourceTree = "<group>"; };
+		4F7064C32C48450B00AFF8E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4F96CEB12C45BA10002569C5 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		4FDB8EDD2C1E55770012FC8B /* pinpals-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pinpals-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FDB8EE02C1E55770012FC8B /* PinPalsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinPalsApp.swift; sourceTree = "<group>"; };
-		4FDB8EE22C1E55770012FC8B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4FDB8EE22C1E55770012FC8B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		4FDB8EE42C1E55780012FC8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FDB8EE72C1E55780012FC8B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4FDB8EF02C1E56A50012FC8B /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
-		4FDB8EF22C1E56F50012FC8B /* PinPalsMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinPalsMap.swift; sourceTree = "<group>"; };
+		4FDB8EF22C1E56F50012FC8B /* PinPalsMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinPalsMapView.swift; sourceTree = "<group>"; };
 		4FDB8EF42C1E57AB0012FC8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -32,18 +53,121 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FDB8EF72C1E58300012FC8B /* MapboxMaps in Frameworks */,
+				4F7064C22C48437D00AFF8E0 /* Supabase in Frameworks */,
+				4F7064A92C45BD4C00AFF8E0 /* MapboxMaps in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F1B8F882C40B10F00449D13 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4F7064AE2C45C42D00AFF8E0 /* HostTab */,
+				4F7064AD2C45C42600AFF8E0 /* SearchTab */,
+				4F96CEB02C45B9F9002569C5 /* MapTab */,
+				4F7064AC2C45C41400AFF8E0 /* MessagesTab */,
+				4F7064AB2C45C3FD00AFF8E0 /* ProfileTab */,
+				4FDB8EE22C1E55770012FC8B /* MainView.swift */,
+				4F1B8F8D2C41B40A00449D13 /* CustomTabBarView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4F1B8F892C40B18B00449D13 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4F1B8F8A2C40B19300449D13 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4F7064B22C483EBB00AFF8E0 /* PinModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4F1B8F8B2C40B1BE00449D13 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4FDB8EF02C1E56A50012FC8B /* LocationManager.swift */,
+				4F7064BF2C48428200AFF8E0 /* supabase.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4F1B8F8C2C40B1DC00449D13 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		4F7064AA2C45BD6500AFF8E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F7064AB2C45C3FD00AFF8E0 /* ProfileTab */ = {
+			isa = PBXGroup;
+			children = (
+				4F1B8F802C40A05A00449D13 /* ProfileView.swift */,
+			);
+			path = ProfileTab;
+			sourceTree = "<group>";
+		};
+		4F7064AC2C45C41400AFF8E0 /* MessagesTab */ = {
+			isa = PBXGroup;
+			children = (
+				4F1B8F822C40A40900449D13 /* MessagesView.swift */,
+			);
+			path = MessagesTab;
+			sourceTree = "<group>";
+		};
+		4F7064AD2C45C42600AFF8E0 /* SearchTab */ = {
+			isa = PBXGroup;
+			children = (
+				4F1B8F862C40A42100449D13 /* SearchView.swift */,
+			);
+			path = SearchTab;
+			sourceTree = "<group>";
+		};
+		4F7064AE2C45C42D00AFF8E0 /* HostTab */ = {
+			isa = PBXGroup;
+			children = (
+				4F1B8F842C40A41300449D13 /* HostView.swift */,
+			);
+			path = HostTab;
+			sourceTree = "<group>";
+		};
+		4F7064C52C48467B00AFF8E0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4F7064B02C483B4F00AFF8E0 /* PinView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		4F96CEB02C45B9F9002569C5 /* MapTab */ = {
+			isa = PBXGroup;
+			children = (
+				4FDB8EF22C1E56F50012FC8B /* PinPalsMapView.swift */,
+				4F96CEB12C45BA10002569C5 /* MapViewController.swift */,
+			);
+			path = MapTab;
+			sourceTree = "<group>";
+		};
 		4FDB8ED42C1E55770012FC8B = {
 			isa = PBXGroup;
 			children = (
 				4FDB8EDF2C1E55770012FC8B /* pinpals-ios */,
 				4FDB8EDE2C1E55770012FC8B /* Products */,
+				4F7064AA2C45BD6500AFF8E0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,12 +182,16 @@
 		4FDB8EDF2C1E55770012FC8B /* pinpals-ios */ = {
 			isa = PBXGroup;
 			children = (
-				4FDB8EF42C1E57AB0012FC8B /* Info.plist */,
-				4FDB8EF02C1E56A50012FC8B /* LocationManager.swift */,
-				4FDB8EE02C1E55770012FC8B /* PinPalsApp.swift */,
-				4FDB8EE22C1E55770012FC8B /* ContentView.swift */,
-				4FDB8EF22C1E56F50012FC8B /* PinPalsMap.swift */,
 				4FDB8EE42C1E55780012FC8B /* Assets.xcassets */,
+				4FDB8EF42C1E57AB0012FC8B /* Info.plist */,
+				4FDB8EE02C1E55770012FC8B /* PinPalsApp.swift */,
+				4F7064C32C48450B00AFF8E0 /* AppDelegate.swift */,
+				4F7064C52C48467B00AFF8E0 /* Components */,
+				4F1B8F882C40B10F00449D13 /* Views */,
+				4F1B8F892C40B18B00449D13 /* ViewModels */,
+				4F1B8F8A2C40B19300449D13 /* Models */,
+				4F1B8F8C2C40B1DC00449D13 /* Utilities */,
+				4F1B8F8B2C40B1BE00449D13 /* Services */,
 				4FDB8EE62C1E55780012FC8B /* Preview Content */,
 			);
 			path = "pinpals-ios";
@@ -94,7 +222,8 @@
 			);
 			name = "pinpals-ios";
 			packageProductDependencies = (
-				4FDB8EF62C1E58300012FC8B /* MapboxMaps */,
+				4F7064A82C45BD4C00AFF8E0 /* MapboxMaps */,
+				4F7064C12C48437D00AFF8E0 /* Supabase */,
 			);
 			productName = "pinpals-ios";
 			productReference = 4FDB8EDD2C1E55770012FC8B /* pinpals-ios.app */;
@@ -125,7 +254,8 @@
 			);
 			mainGroup = 4FDB8ED42C1E55770012FC8B;
 			packageReferences = (
-				4FDB8EF52C1E58300012FC8B /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */,
+				4F7064A72C45BD4C00AFF8E0 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */,
+				4F7064B42C48402200AFF8E0 /* XCRemoteSwiftPackageReference "supabase-swift" */,
 			);
 			productRefGroup = 4FDB8EDE2C1E55770012FC8B /* Products */;
 			projectDirPath = "";
@@ -153,10 +283,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FDB8EF32C1E56F50012FC8B /* PinPalsMap.swift in Sources */,
-				4FDB8EE32C1E55770012FC8B /* ContentView.swift in Sources */,
+				4F1B8F8E2C41B40A00449D13 /* CustomTabBarView.swift in Sources */,
+				4F7064B32C483EBB00AFF8E0 /* PinModel.swift in Sources */,
+				4FDB8EF32C1E56F50012FC8B /* PinPalsMapView.swift in Sources */,
+				4FDB8EE32C1E55770012FC8B /* MainView.swift in Sources */,
+				4F7064C42C48450B00AFF8E0 /* AppDelegate.swift in Sources */,
+				4F1B8F832C40A40900449D13 /* MessagesView.swift in Sources */,
+				4F1B8F812C40A05A00449D13 /* ProfileView.swift in Sources */,
+				4F1B8F872C40A42100449D13 /* SearchView.swift in Sources */,
 				4FDB8EE12C1E55770012FC8B /* PinPalsApp.swift in Sources */,
+				4F96CEB22C45BA10002569C5 /* MapViewController.swift in Sources */,
+				4F7064B12C483B4F00AFF8E0 /* PinView.swift in Sources */,
+				4F7064C02C48428200AFF8E0 /* supabase.swift in Sources */,
 				4FDB8EF12C1E56A50012FC8B /* LocationManager.swift in Sources */,
+				4F1B8F852C40A41300449D13 /* HostView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,21 +512,34 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		4FDB8EF52C1E58300012FC8B /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */ = {
+		4F7064A72C45BD4C00AFF8E0 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/mapbox/mapbox-maps-ios.git";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = exactVersion;
+				version = 11.5.1;
+			};
+		};
+		4F7064B42C48402200AFF8E0 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		4FDB8EF62C1E58300012FC8B /* MapboxMaps */ = {
+		4F7064A82C45BD4C00AFF8E0 /* MapboxMaps */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 4FDB8EF52C1E58300012FC8B /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */;
+			package = 4F7064A72C45BD4C00AFF8E0 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */;
 			productName = MapboxMaps;
+		};
+		4F7064C12C48437D00AFF8E0 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4F7064B42C48402200AFF8E0 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

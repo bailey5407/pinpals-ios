@@ -1,13 +1,13 @@
 {
-  "originHash" : "c48d77ebe93e854e8e2b4bbddf1d5fe4977e5a87efa4e14ea29c90b3e5919e31",
+  "originHash" : "715b2caaec2b24ae2eeccd75629c563e4b948abdd1544475e013c6b4f583f4e3",
   "pins" : [
     {
       "identity" : "mapbox-common-ios",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/mapbox/mapbox-common-ios.git",
       "state" : {
-        "revision" : "192ccc0847a5f14bd3fc256b316aed890409e55a",
-        "version" : "24.5.0-beta.4"
+        "revision" : "add54e4b7d4cfe1e12600d73af6d38a536b37085",
+        "version" : "24.5.0"
       }
     },
     {
@@ -15,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/mapbox/mapbox-core-maps-ios.git",
       "state" : {
-        "revision" : "db0cb962a5924d3ea94d12068029f50ded2a03a5",
-        "version" : "11.5.0-beta.1"
+        "revision" : "33c88427d47dc075aa1bff8e088570110a19ed1a",
+        "version" : "11.5.1"
       }
     },
     {
@@ -24,8 +24,35 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/mapbox/mapbox-maps-ios.git",
       "state" : {
-        "branch" : "main",
-        "revision" : "1b6d7fd7cbefd1888adfb139fc11fe6aea0c8120"
+        "revision" : "3d063d661ea969be5a0f1cf8fde5461597911924",
+        "version" : "11.5.1"
+      }
+    },
+    {
+      "identity" : "supabase-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/supabase/supabase-swift.git",
+      "state" : {
+        "revision" : "11fd12c11b737ef060cd1d0c58623b17642ca958",
+        "version" : "2.14.2"
+      }
+    },
+    {
+      "identity" : "swift-concurrency-extras",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/pointfreeco/swift-concurrency-extras",
+      "state" : {
+        "revision" : "bb5059bde9022d69ac516803f4f227d8ac967f71",
+        "version" : "1.1.0"
+      }
+    },
+    {
+      "identity" : "swift-crypto",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-crypto.git",
+      "state" : {
+        "revision" : "46072478ca365fe48370993833cb22de9b41567f",
+        "version" : "3.5.2"
       }
     },
     {
