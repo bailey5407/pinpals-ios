@@ -51,11 +51,23 @@ struct PinPalsMapView: View {
                         PinView(pin.emoji, color: pin.color)
                             .onTapGesture {
                                 print("tapped")
-                                resetViewport()
+                                let cam = CameraOptions(center: CLLocationCoordinate2D(latitude: pin.location.latitude + 0.0005, longitude: pin.location.longitude),
+                                                        zoom: 17,
+                                                        bearing: 0,
+                                                        pitch: 0)
+                                    proxy.camera!.ease(
+                                    to: cam,
+                                    duration: 0.4,
+                                    curve: .easeOut
+                                )
                             }
                     }
+
                     .allowOverlap(true)
                 }
+            }
+            .onMapTapGesture { _ in
+                resetViewport()
             }
         }
     }
